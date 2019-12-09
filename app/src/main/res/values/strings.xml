@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">colorpicker_assignment2</string>
+    <string name="colorpick">Pick a color</string>
+    <string name="A">A</string>
+    <string name="R">R</string>
+    <string name="G">G</string>
+    <string name="B">B</string>
+    <string name="Hex">Hex:</string>
+    <string name="RGB">RGB:</string>
+    <string name="title">Pick a color from the wheel to get started</string>
+<string name="Backgroundcolorvalues">Background color values:</string>
+</resources>
