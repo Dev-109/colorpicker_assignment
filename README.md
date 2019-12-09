@@ -1,1 +1,3 @@
-#Color Picker 
+Color Picker 
+
+This app implements the Color picker, which can be used to customize the color of the background pages of the android app. This app allows you to pick a color of your choice through a selection of a variety of colors presented to you in the form of a color wheel. You can pick a color and it changes the backgroung color of the app as well as display your choice of the color at the bottom in both a Hex value as well as a normal RGB value. The color picker interface can be used in many applications such as in my case where I need to use it to set different colors on the Neopixel ring or use it to customize colors in another setting.
