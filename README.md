@@ -9,8 +9,8 @@ I have a few methods in the Main Activity that implements a color wheel on a bit
 The methods to implement bitmap on the color wheel
 ```
      //Implement a bitmap on the image
-    setDrawingCacheEnabled(true);
-    buildDrawingCache(true);
+    setDrawingCacheEnabled(true)
+    buildDrawingCache(true)
 ```
 In the following code block, an interface named View.OnTouchListener is invoked when a touch event is dispatched to the color wheel. The first method is called when a user touches on the color wheel and initiates an appropriate response inside the method. The second method(event.getAction()) inside the onTouch method detects a mouse event on the color wheel and returns a pair of x,y values to the event, in the form of pixels.
 ```
@@ -21,7 +21,7 @@ In the following code block, an interface named View.OnTouchListener is invoked 
 ```
 This piece of code gets the pixel values based on the mouse events.
 ```
-getPixel();
+getPixel()
 ```
 The methods below retrieve the pixel value and converts it into an RGB value and assigns it to the variables, which we can manipulate to set text.
 ```
@@ -35,13 +35,12 @@ We further use this method below to convert the RGB values that we received earl
  ```
  Finally to display the background color and set the text to the app from the wheel, we use the methods:
  ```
- setBackgroundColor(int color);
- setText(char[], int, int);
+ setBackgroundColor(int color)
+ setText(char[], int, int)
  ```
  ## Instructions on component usage
  
- ![wheel](https://user-images.githubusercontent.com/55503392/70555168-87523e80-1b4c-11ea-95c3-8f27e851a9a7.png)
-
+ ![picture](app/src/main/res/drawable/wheel.png)
  
  Swipe your mouse across the color wheel to pick a color and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges of the wheel to display darker color themes. If you click on the outside of the color wheel, then the background theme will become dark.
 
