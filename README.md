@@ -43,4 +43,9 @@ We further use this method to convert the RGB values that we received earlier to
  ![Color Wheel](C:\\wheel.png)
  
 Swipe your mouse across the color pick to pick a color and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges to display darker color themes. If you click on the outer edges of the color wheel, then the background theme will become dark.
- 
+
+## References
+
+https://tekeye.uk/android/examples/ui/android-color-picker-tutorial
+https://androidexample365.com/pick-a-color-using-color-wheel-and-slider-for-android
+https://medium.com/@skydoves/how-to-implement-color-picker-in-android-61d8be348683
