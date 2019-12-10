@@ -5,10 +5,15 @@ The color picker allows you to choose a wide variety of different colors through
 Earlier versions of the android studio sdk were shipped with app demos that included the classical color wheel
 
 ## Methods and attributes
+I have a few methods in the Main Activity that implements a color wheel on a bitmap and whenever i click or swipe on the wheel it returns a pixel value.
 
 A method to implement the color wheel image on the bitmap
 ```
      //Implement a bitmap on the image
     color_wheel.setDrawingCacheEnabled(true);
     color_wheel.buildDrawingCache(true);
+```
+The method to respond to touch events on the color wheel
+```
+            public boolean onTouch(View v, MotionEvent event)
 ```
