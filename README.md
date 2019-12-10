@@ -9,8 +9,7 @@ I have a few methods in the Main Activity that implements a color wheel on a bit
 The methods to implement bitmap on the color wheel
 ```
      //Implement a bitmap on the image
-    setDrawingCacheEnabled(true)
-    buildDrawingCache(true)
+  public void setDrawingCacheEnabled (boolean enabled)
 ```
 In the following code block, an interface named View.OnTouchListener is invoked when a touch event is dispatched to the color wheel. The first method is called when a user touches on the color wheel and initiates an appropriate response inside the method. The second method(event.getAction()) inside the onTouch method detects a mouse event on the color wheel and returns a pair of x,y values to the event, in the form of pixels.
 ```
