@@ -25,9 +25,9 @@ getPixel();
 ```
 The methods below retrieve the pixel value and converts it into an RGB value and assigns it to the variables, which we can manipulate to set text.
 ```
-                     Color.red(); //method to collect pixels corresponding to the red color on the wheel
-                     Color.green();//method to collect pixels corresponding to the red color on the wheel
-                     Color.blue(pixels);//method to collect pixels corresponding to the blue color on the wheel
+                     Color.red() //method to collect pixels corresponding to the red color on the wheel
+                     Color.green()//method to collect pixels corresponding to the red color on the wheel
+                     Color.blue()//method to collect pixels corresponding to the blue color on the wheel
  ```
 We further use this method below to convert the RGB values that we received earlier into a Hex value and display the equivalent hex value as well on the screen:
  ```
@@ -39,6 +39,8 @@ We further use this method below to convert the RGB values that we received earl
  setText(char[], int, int);
  ```
  ## Instructions on component usage
+ 
+ ![Color wheel in android studio](/downloads/colorwheel.png)
  
 Swipe your mouse across the color wheel to pick a color and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges of the wheel to display darker color themes. If you click on the outside of the color wheel, then the background theme will become dark.
 
