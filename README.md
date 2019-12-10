@@ -40,7 +40,8 @@ We further use this method below to convert the RGB values that we received earl
  ```
  ## Instructions on component usage
  
- ![picture](app/src/main/res/drawable/wheel.png)
+ ![wheel](https://user-images.githubusercontent.com/55503392/70555168-87523e80-1b4c-11ea-95c3-8f27e851a9a7.png)
+
  
  Swipe your mouse across the color wheel to pick a color and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges of the wheel to display darker color themes. If you click on the outside of the color wheel, then the background theme will become dark.
 
