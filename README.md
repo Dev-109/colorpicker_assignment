@@ -47,5 +47,7 @@ Swipe your mouse across the color pick to pick a color and change the background
 ## References
 
 https://tekeye.uk/android/examples/ui/android-color-picker-tutorial
-https://androidexample365.com/pick-a-color-using-color-wheel-and-slider-for-android/
+
+https://androidexample365.com/pick-a-color-using-color-wheel-and-slider-for-android
+
 https://medium.com/@skydoves/how-to-implement-color-picker-in-android-61d8be348683
