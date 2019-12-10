@@ -7,13 +7,40 @@ Earlier versions of the android studio sdk were shipped with app demos that incl
 ## Methods and attributes
 I have a few methods in the Main Activity that implements a color wheel on a bitmap and whenever i click or swipe on the wheel it returns a pixel value.
 
-A method to implement the color wheel image on the bitmap
+A method to implement bitmap on the color wheel
 ```
      //Implement a bitmap on the image
     color_wheel.setDrawingCacheEnabled(true);
     color_wheel.buildDrawingCache(true);
 ```
-The method to respond to touch events on the color wheel
+In the following code block, first method is invoked when a user touches on the color wheel and initiates an appropriate response inside the method. The second method(event.getAction()) inside the onTouch method detects a mouse event for the color wheel and returns a pair of x,y value to the event.
 ```
-            public boolean onTouch(View v, MotionEvent event)
+             public boolean onTouch(View v, MotionEvent event)
+            {
+                if(event.getAction()==MotionEvent.ACTION_DOWN||event.getAction()==MotionEvent.ACTION_MOVE)
+                {
 ```
+This piece of code gets the pixel values based on the mouse events.
+```
+getPixel((int)event.getX(),(int)event.getY());
+```
+The methods below retrieve the pixel value and converts it into an RGB value and assigns it to the variables, which we can manipulate to set text.
+```
+                     Color.red(pixels); //method to collect pixels corresponding to the red color on the wheel
+                     Color.green(pixels);//method to collect pixels corresponding to the red color on the wheel
+                     Color.blue(pixels);//method to collect pixels corresponding to the blue color on the wheel
+ ```
+We further use this method to convert the RGB values that we received earlier to convert it into a Hex value and display the equivalent hex value as well on the screen:
+ ```
+ Integer.toHexString();
+ ```
+ Finally to display the background color and set the text to the app from the wheel, we use the methods:
+ ```
+ setBackgroundColor(int color);
+ setText(char[], int, int);
+ ```
+ ## Instructions on component usage
+ ![Color Wheel](C:\\wheel.png)
+ 
+Swipe your mouse across the color pick to pick a color and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges to display darker color themes. If you click on the outer edges of the color wheel, then the background theme will become dark.
+ 
