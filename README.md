@@ -14,15 +14,15 @@ The methods to implement bitmap on the color wheel
 In the following code block, an interface named View.OnTouchListener is invoked when a touch event is dispatched to the color wheel. The first method is called when a user touches on the color wheel and initiates an appropriate response inside the method. The second method(event.getAction()) inside the onTouch method detects a mouse event on the color wheel and returns a pair of x,y values to the event, in the form of pixels.
 ```
              public boolean onTouch(View v, MotionEvent event)
-             getAction()
-               
+             public int getAction ()               
                 
 ```
-This piece of code gets the pixel values based on the mouse events.
+This piece of code gets the pixel values of x and y on a bitmap graph representation.
 ```
-getPixel()
+public int getPixel (int x, 
+                int y)
 ```
-The methods below retrieve the pixel value and converts it into an RGB value and assigns it to the variables, which we can manipulate to set text.
+The methods below uses the pixel values and converts it into an RGB value and we can assign it to the variables, which we can manipulate to set text to get the RGB values to display at the bottom.
 ```
                      Color.red() //method to collect pixels corresponding to the red color on the wheel
                      Color.green()//method to collect pixels corresponding to the red color on the wheel
@@ -30,8 +30,8 @@ The methods below retrieve the pixel value and converts it into an RGB value and
  ```
 We further use this method below to convert the RGB values that we received earlier into a Hex value and display the equivalent hex value as well on the screen:
  ```
- Integer.toHexString();
- ```
+public static String toHexString (int i)
+```
  Finally to display the background color and set the text to the app from the wheel, we use the methods:
  ```
  setBackgroundColor(int color)
