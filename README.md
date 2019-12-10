@@ -15,7 +15,7 @@ The methods to implement bitmap on the color wheel
 In the following code block, an interface named View.OnTouchListener is invoked when a touch event is dispatched to the color wheel. The first method is called when a user touches on the color wheel and initiates an appropriate response inside the method. The second method(event.getAction()) inside the onTouch method detects a mouse event on the color wheel and returns a pair of x,y values to the event, in the form of pixels.
 ```
              public boolean onTouch(View v, MotionEvent event)
-             event.getAction()
+             getAction()
                
                 
 ```
