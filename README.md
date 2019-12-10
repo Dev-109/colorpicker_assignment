@@ -2,9 +2,9 @@
 The color picker allows you to choose a wide variety of different colors through the implementation of a color wheel palette. The color picker can enable you to pick colors and perform a wide variety of tasks with it such as change the layouts of an app or set colors in both hardware and software applications. The major purpose of the color picker in my project is to use it to customize different colors for the Neopixel ring for the Lumi Project and will be used to light up an infants room at night. At the moment the color wheel can only change the background colors of the app and display the chosen values in both Hexadecimal and RGB values at the bottom of the screen.
 
 ## History
-The color palette Api was implemented in Android Nougat starting from API level 24. The Api is included in the Android support library. The package is: android.support.*
+The color palette Api was implemented in Android Nougat starting from API level 24. The Api is included in the Android support library. The package is: android.support.* To be able to implement this component in Android Studio you need Android 7.0 or higher.
 ## Methods and attributes
-I have a few methods in the Main Activity that implements a color wheel on a bitmap and whenever i click or swipe on the wheel it returns a pixel value.
+I have a few methods in the Main Activity that implements a color wheel on a bitmap and whenever i click or swipe on the wheel it returns a pixel value and a hex value at the bottom of the screen.
 
 A method to implement bitmap on the color wheel
 ```
