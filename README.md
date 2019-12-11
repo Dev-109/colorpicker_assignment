@@ -46,9 +46,9 @@ The XML attributes that I used for this project were the general ones for the fi
  
 ![wheel](https://user-images.githubusercontent.com/55503392/70555168-87523e80-1b4c-11ea-95c3-8f27e851a9a7.png)
  
-To get started with the color wheel,swipe your mouse across the color wheel to pick a variety of colors and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges of the wheel to display darker color themes. If you click on the outside of the color wheel, then the background theme will become dark. 
+To get started with the color wheel, swipe your mouse across the color wheel to pick a variety of colors and change the background theme of the page, with RGB and Hex values displayed at the bottom. To reset the colors simply click on the centre of the wheel to reset it to its default RGB and Hex values. To display lighter color shades,click on the centre-most edges of the wheel and click on the outer edges of the wheel to display darker color themes. If you click on the outside of the color wheel, then the background theme will become dark. 
  
-Implementing the color wheel on your device:
+#### Implementing the color wheel on your device:
 
 In short, the main steps to implement the following component into your device are as follows:  
  1. Pick a color wheel image from the internet and implement that into your XML file as an imageview.
